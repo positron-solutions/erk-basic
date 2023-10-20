@@ -1,0 +1,78 @@
+\input texinfo    @c -*- texinfo -*-
+@c %**start of header
+@setfilename manual.info
+@settitle Elisp repository kit basic
+@documentencoding UTF-8
+@documentlanguage en
+@comment !!!THIS FILE HAS BEEN GENERATED!!! Edit manual.org instead!
+@c %**end of header
+
+@copying
+Copyright (C) 2022 Positron Solutions
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the ``Software''), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED ``AS IS'', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT@. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE@.
+@end copying
+
+@dircategory Emacs
+@direntry
+* Elisp repository kit basic: (erk-basic). Create, distribute, and maintain Emacs Lisp packages.
+@end direntry
+
+@finalout
+@titlepage
+@title Elisp repository kit basic
+@subtitle for version 0.1.0
+@author Positron Solutions
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+
+@contents
+
+@ifnottex
+@node Top
+@top Elisp repository kit basic
+@end ifnottex
+
+@menu
+* Welcome::
+* Use with Elisp Repo Kit::
+* About this Manual::
+@end menu
+
+@node Welcome
+@chapter Welcome
+
+This is a simple org document used to generate an info manual and content for
+the README@.
+
+@node Use with Elisp Repo Kit
+@chapter Use with Elisp Repo Kit
+
+The repository hosting this package was created with @uref{https://github.com/positron-solutions/elisp-repo-kit, elisp-repo-kit}.  You can
+install it using @code{erk-new}.
+
+@node About this Manual
+@chapter About this Manual
+
+To see more examples of writing an org document that exports to texinfo or
+markdown, see the longer examples in Elisp Repo Kit, which is available in its
+info manual as well.
+
+@bye
