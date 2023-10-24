@@ -7,6 +7,7 @@
 #+options: broken-links:warn \n:nil ::t |:t ^:nil -:t f:t *:t <:t e:t ':t
 #+options: d:nil todo:nil pri:nil tags:not-in-toc stat:nil
 #+language: en
+#+export_file_name: erk-basic.texi
 #+texinfo_dir_category: Emacs
 #+texinfo_dir_title: Elisp repository kit basic: (erk-basic)
 #+texinfo_dir_desc: Create, distribute, and maintain Emacs Lisp packages
@@ -16,6 +17,7 @@
 #+macro: year (eval (format-time-string "%Y"))
 #+texinfo_header: @comment !!!THIS FILE HAS BEEN GENERATED!!! Edit manual.org instead!
 
+
 * Welcome
 
 This is a simple org document used to generate an info manual and content for
@@ -24,7 +26,7 @@ the README.
 * Use with Elisp Repo Kit
 
   The repository hosting this package was created with [[https://github.com/positron-solutions/elisp-repo-kit][elisp-repo-kit]].  You can
-  install it using ~erk-new~.
+  clone and rename it using ~erk-new~ to quickly get a package set up.
 
 * About this Manual
 

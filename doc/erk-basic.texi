@@ -1,6 +1,6 @@
 \input texinfo    @c -*- texinfo -*-
 @c %**start of header
-@setfilename manual.info
+@setfilename erk-basic.info
 @settitle Elisp repository kit basic
 @documentencoding UTF-8
 @documentlanguage en
@@ -66,7 +66,7 @@ the README@.
 @chapter Use with Elisp Repo Kit
 
 The repository hosting this package was created with @uref{https://github.com/positron-solutions/elisp-repo-kit, elisp-repo-kit}.  You can
-install it using @code{erk-new}.
+clone and rename it using @code{erk-new} to quickly get a package set up.
 
 @node About this Manual
 @chapter About this Manual
