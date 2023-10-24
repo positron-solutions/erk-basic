@@ -5,20 +5,20 @@ Development process & infrastructure guide.
 
 # Table of Contents
 
--   [Development](#org7231ee7)
-    -   [Running tests](#orge646ce1)
-    -   [Lint and byte-compile code](#org912aa2c)
-    -   [Loading and re-loading your package](#org46aa158)
-    -   [Re-generating Documentation](#org808eb3d)
--   [License](#orgb03d130)
--   [Developer Certificate of Origin (DCO)](#orgd11751d)
-    -   [Sign-off](#orgf00ee61)
-    -   [GPG signature](#org3116c6e)
-    -   [User setup for submitting changes](#org020088a)
-    -   [Maintaining versions](#org8376c40)
+-   [Development](#orgc61dd64)
+    -   [Running tests](#org24c1963)
+    -   [Lint and byte-compile code](#org0273d6e)
+    -   [Loading and re-loading your package](#org91dcc68)
+    -   [Re-generating Documentation](#org1b0caaf)
+-   [License](#org5cbcace)
+-   [Developer Certificate of Origin (DCO)](#org1d0b1a8)
+    -   [Sign-off](#orgd66676d)
+    -   [GPG signature](#orgc7e6609)
+    -   [User setup for submitting changes](#org6c1b07f)
+    -   [Maintaining versions](#org5c455a5)
 
 
-<a id="org7231ee7"></a>
+<a id="orgc61dd64"></a>
 
 # Development
 
@@ -26,7 +26,7 @@ This repository was created with [elisp-repo-kit](https://github.com/positron-so
 development workflows.
 
 
-<a id="orge646ce1"></a>
+<a id="org24c1963"></a>
 
 ## Running tests
 
@@ -54,7 +54,7 @@ have.  **You do not need Nix to run tests pretty close to what CI does.** CI
 will use Nix to obtain Emacs & dependencies.
 
 
-<a id="org912aa2c"></a>
+<a id="org0273d6e"></a>
 
 ## Lint and byte-compile code
 
@@ -78,7 +78,7 @@ You can run the lints manually almost the same as running tests.
     emacs --script .github/run-shim.el -- lint-tests
 
 
-<a id="org46aa158"></a>
+<a id="org91dcc68"></a>
 
 ## Loading and re-loading your package
 
@@ -101,7 +101,7 @@ directly, call `emacs-lisp-byte-compile-and-load` or
 `emacs-lisp-native-compile-and-load`.
 
 
-<a id="org808eb3d"></a>
+<a id="org1b0caaf"></a>
 
 ## Re-generating Documentation
 
@@ -123,7 +123,7 @@ manually type the path to the `manual.info`.  Honestly, just use
  because they use `#+include:` directives.
 
 
-<a id="orgb03d130"></a>
+<a id="org5cbcace"></a>
 
 # License
 
@@ -131,7 +131,7 @@ This package is distributed under the terms of the [included license](./COPYING)
 configuration and scripts are MIT licensed.
 
 
-<a id="orgd11751d"></a>
+<a id="org1d0b1a8"></a>
 
 # Developer Certificate of Origin (DCO)
 
@@ -144,7 +144,7 @@ A [copy of the DCO](./DCO) is distributed with this project.  Read its text to
 understand the significance of configuring for sign-off.
 
 
-<a id="orgf00ee61"></a>
+<a id="orgd66676d"></a>
 
 ## Sign-off
 
@@ -155,7 +155,7 @@ following:
     Signed-off-by: Random J Developer <random@developer.example.org>
 
 
-<a id="org3116c6e"></a>
+<a id="orgc7e6609"></a>
 
 ## GPG signature
 
@@ -166,7 +166,7 @@ participating in.  Corroborating user's signature accross a history of works
 strengthens that user's attestation provided by DCO sign-off.
 
 
-<a id="org020088a"></a>
+<a id="org6c1b07f"></a>
 
 ## User setup for submitting changes
 
@@ -241,7 +241,7 @@ equivalent:
     git rebase -i
 
 
-<a id="org8376c40"></a>
+<a id="org5c455a5"></a>
 
 ## Maintaining versions
 

@@ -8,7 +8,7 @@
 # Elisp Repository Kit Basic
 
 The repository hosting this package was created with [elisp-repo-kit](https://github.com/positron-solutions/elisp-repo-kit).  You can
-install it using `erk-new`.
+clone and rename it using `erk-new` to quickly get a package set up.
 
 
 # Install Elisp repository kit basic
@@ -30,7 +30,7 @@ install it using `erk-new`.
 
 # Table of Contents
 
--   [Contributing](#orgdc3ea80)
+-   [Contributing](#orgc56da48)
 
 
 # Contributing
