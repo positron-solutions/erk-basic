@@ -33,7 +33,10 @@
 
 ;;; Code:
 
-;; see flake.nix for providing dependencies for CI and local development.
+;; Remember to update Package-Requires if necessary.  See flake.nix for
+;; providing dependencies for CI and local development.
+;; (require 'dash)
+
 (defgroup erk-basic nil "Elisp repository kit basic." :prefix 'erk-basic :group 'convenience)
 
 (defcustom erk-basic-greeting "hello"
