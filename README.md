@@ -1,8 +1,8 @@
 <!-- !!!THIS FILE HAS BEEN GENERATED!!! Edit README.org -->
 
 <!-- a href="https://melpa.org/#/erk"><img src="https://melpa.org/packages/erk-badge.svg" alt="melpa package"></a> <a href="https://stable.melpa.org/#/erk"><img src="https://stable.melpa.org/packages/erk-badge.svg" alt="melpa stable package"></a> -->
-<a href="https://github.com/positron-solutions/elisp-repo-kit/actions/?workflow=CI"><img src="https://github.com/positron-solutions/elisp-repo-kit/actions/workflows/ci.yml/badge.svg" alt="CI workflow status"></a>
-<a href="https://github.com/positron-solutions/elisp-repo-kit/actions/?workflow=Developer+Certificate+of+Origin"><img src="https://github.com/positron-solutions/elisp-repo-kit/actions/workflows/dco.yml/badge.svg" alt="DCO Check"></a>
+<a href="https://github.com/positron-solutions/erk-basic/actions/?workflow=CI"><img src="https://github.com/positron-solutions/erk-basic/actions/workflows/ci.yml/badge.svg" alt="CI workflow status"></a>
+<a href="https://github.com/positron-solutions/erk-basic/actions/?workflow=Developer+Certificate+of+Origin"><img src="https://github.com/positron-solutions/erk-basic/actions/workflows/dco.yml/badge.svg" alt="DCO Check"></a>
 
 
 # Elisp Repository Kit Basic
@@ -30,7 +30,7 @@ clone and rename it using `erk-new` to quickly get a package set up.
 
 # Table of Contents
 
--   [Contributing](#orgc56da48)
+-   [Contributing](#org2333f5e)
 
 
 # Contributing
@@ -39,7 +39,7 @@ Because this repository is created from [elisp-repo-kit](https://github.com/posi
 or make relevant pull requests there unless the changes are specific to this
 repo.
 
-See the [CONTRIBUTING](../CONTRIBUTING.md) guide for help making changes to this project.
+See the [CONTRIBUTING](./CONTRIBUTING.md) guide for help making changes to this project.
 
 For turn-key contribution to the software ecosystem that keeps you moving, see
 the [funding links](https://github.com/sponsors/positron-solutions).
