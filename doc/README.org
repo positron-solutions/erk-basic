@@ -49,7 +49,7 @@
   or make relevant pull requests there unless the changes are specific to this
   repo.
 
-  See the [[../CONTRIBUTING.md][CONTRIBUTING]] guide for help making changes to this project.
+  See the [[./CONTRIBUTING.md][CONTRIBUTING]] guide for help making changes to this project.
 
   For turn-key contribution to the software ecosystem that keeps you moving, see
   the [[https://github.com/sponsors/positron-solutions][funding links]].
