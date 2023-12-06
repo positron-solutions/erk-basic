@@ -17,7 +17,6 @@
 #+macro: year (eval (format-time-string "%Y"))
 #+texinfo_header: @comment !!!THIS FILE HAS BEEN GENERATED!!! Edit manual.org instead!
 
-
 * Welcome
 
 This is a simple org document used to generate an info manual and content for

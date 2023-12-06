@@ -6,7 +6,9 @@
 ;; Keywords: convenience, programming
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "28.1"))
-;; Homepage: http://github.com/positron-solutions/erk-basic-basic
+;; Homepage: http://github.com/positron-solutions/erk-basic
+
+;; This file is not part of GNU Emacs.
 
 ;; Permission is hereby granted, free of charge, to any person obtaining a copy of
 ;; this software and associated documentation files (the "Software"), to deal in
