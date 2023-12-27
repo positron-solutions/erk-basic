@@ -25,9 +25,14 @@
   :END:
 
  #+begin_src elisp
-
    ;; update this after you publish your new package!
    ;; (use-package erk-basic) ; vanilla, assuming you have MELPA configured
+
+   ;; package-vc
+   (package-vc-install
+    '(erk-basic :url "https://github.com/positron-solutions/erk-basic.git"
+          :lisp-dir "lisp"
+          :doc "doc/erk-basic.texi"))
 
    ;; using elpaca's with explicit recipe
    (use-package erk-basic
@@ -38,7 +43,6 @@
      :straight (erk-basic :type git :host github :repo "positron-solutions/erk-basic"))
 
    ;; or use manual load-path & require, you brave yak shaver
-
  #+end_src
 
  #+toc: headlines 2
