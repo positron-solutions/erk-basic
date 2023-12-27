@@ -13,9 +13,14 @@ clone and rename it using `erk-new` to quickly get a package set up.
 
 # Install Elisp repository kit basic
 
-    
     ;; update this after you publish your new package!
     ;; (use-package erk-basic) ; vanilla, assuming you have MELPA configured
+    
+    ;; package-vc
+    (package-vc-install
+     '(erk-basic :url "https://github.com/positron-solutions/erk-basic.git"
+           :lisp-dir "lisp"
+           :doc "doc/erk-basic.texi"))
     
     ;; using elpaca's with explicit recipe
     (use-package erk-basic
@@ -30,7 +35,7 @@ clone and rename it using `erk-new` to quickly get a package set up.
 
 # Table of Contents
 
--   [Contributing](#org2333f5e)
+-   [Contributing](#orgf616827)
 
 
 # Contributing
